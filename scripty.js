@@ -109,7 +109,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
-historiaFinal += afirmacoes + "  ";
+historiaFinal += afirmacoes + " ";
 atual++;
 mostraPergunta();
 }
